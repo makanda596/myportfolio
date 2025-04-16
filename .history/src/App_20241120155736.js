@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <input type="text" placeholder='write something' value={input} onChange={(e) => { setInput(e.target.value) }} />
-      <CopyToClipboard text={input}>
+      <CopyToClipboard text="inputs">
         <button>COPY</button>
       </CopyToClipboard>
     </div>

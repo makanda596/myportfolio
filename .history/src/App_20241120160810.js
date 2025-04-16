@@ -5,7 +5,6 @@ const App = () => {
   const [input, setInput] = useState("");
   return (
     <div>
-      <input type="text" placeholder='write something' value={input} onChange={(e) => { setInput(e.target.value) }} />
       <CopyToClipboard text={input}>
         <button>COPY</button>
       </CopyToClipboard>
