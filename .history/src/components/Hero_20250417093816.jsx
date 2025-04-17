@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import profile from "../assets/profile.png"
 
 const Hero = () => {
-    
     const heroVariants = {
         initial: { opacity: 0 },
         animate: { opacity: 1, transition: { duration: 1, staggerChildren: 0.3 } },
@@ -78,9 +77,9 @@ const Hero = () => {
                     Contact Me
                 </motion.a>
                 <motion.a
-                    href="/BRIAN MAKANDA RESUME.pdf"
+                    href="../../public/BRIAN MAKANDA RESUME.pdf"
                     download="BRIAN_MAKANDA_Resume"
-                    className="bg-blue-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out"
+                    className="bg-blue-500 hover:bg-yellow-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out"
                     variants={socialVariants}
                 >
                     Download Resume
