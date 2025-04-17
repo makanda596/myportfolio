@@ -27,7 +27,7 @@ const Hero = () => {
 
     return (
         <motion.section
-            className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-blue-700 to-indigo-900 text-white py-14"
+            className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-blue-700 to-indigo-900 text-white p-12"
             variants={heroVariants}
             initial="initial"
             animate="animate"
@@ -36,7 +36,7 @@ const Hero = () => {
                 className="rounded-full overflow-hidden shadow-lg mb-8 w-32 h-32 md:w-48 md:h-48"
                 variants={imageVariants}
             >
-                <img src={profile} alt="profile" className="w-full  h-full object-cover" />
+                <img src={profile} alt="profile" className="w-full mt-6 h-full object-cover" />
             </motion.div>
 
             <motion.h1
@@ -80,15 +80,15 @@ const Hero = () => {
                 <motion.a
                     href="/BRIAN MAKANDA RESUME.pdf"
                     download="BRIAN_MAKANDA_Resume"
-                    className="bg-blue-500 hover:bg-indigo-600 text-white font-semibold py-1 px-2 rounded-full shadow-md transition duration-300 ease-in-out"
+                    className="bg-blue-500 hover:bg-indigo-600 text-white font-semibold py-3 px-4 rounded-full shadow-md transition duration-300 ease-in-out"
                     variants={socialVariants}
                 >
-                    Download Resume
+                    Download  Resume
                 </motion.a>
             </motion.div>
 
             <motion.div
-                className="flex space-x-6 mt-4"
+                className="flex space-x-6 mt-8"
                 variants={textVariants}
                 style={{ delay: 0.9 }}
             >
@@ -99,7 +99,7 @@ const Hero = () => {
                     className="text-gray-300 hover:text-white transition duration-300"
                     variants={socialVariants}
                 >
-                    <FaGithub size={24} />
+                    <FaGithub size={30} />
                 </motion.a>
                 <motion.a
                     href="https://www.linkedin.com/in/brian-makanda-26ba7424a/"
@@ -115,7 +115,7 @@ const Hero = () => {
                     className="text-gray-300 hover:text-white transition duration-300"
                     variants={socialVariants}
                 >
-                    <FaEnvelope size={24} />
+                    <FaEnvelope size={30} />
                 </motion.a>
             </motion.div>
         </motion.section>

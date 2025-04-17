@@ -27,7 +27,7 @@ const Hero = () => {
 
     return (
         <motion.section
-            className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-blue-700 to-indigo-900 text-white py-14"
+            className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-blue-700 to-indigo-900 text-white p-12"
             variants={heroVariants}
             initial="initial"
             animate="animate"
