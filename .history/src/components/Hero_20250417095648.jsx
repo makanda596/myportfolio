@@ -36,7 +36,7 @@ const Hero = () => {
                 className="rounded-full overflow-hidden shadow-lg mb-8 w-32 h-32 md:w-48 md:h-48"
                 variants={imageVariants}
             >
-                <img src={profile} alt="profile" className="w-full mt-6 h-full object-cover" />
+                <img src={profile} alt="profile" className="w-full h-full object-cover" />
             </motion.div>
 
             <motion.h1
