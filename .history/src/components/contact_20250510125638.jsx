@@ -4,18 +4,12 @@ const Contact = () => {
   return (
     <section id="contact" className="py-2 bg-white text-black">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-xl font-bold mb-2">Get In Touch</h2>
-        <p className="text-gray-400 mb-4">
+        <h2 className="text-xl font-bold mb-4">Get In Touch</h2>
+        <p className="text-gray-400 mb-10">
           Whether you want to collaborate, ask a question, or just say hi  my inbox is always open.
         </p>
-        
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-4 text-sm sm:text-base">
-          <a
-            href="tel:+254742149060"
-            className="text-blue-500 hover:text-blue-700 font-semibold text-lg transition duration-200 ease-in-out"
-          >Call me
-          </a>
 
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mb-10 text-sm sm:text-base">
           <a
             href="mailto:oumab743@gmail.com"
             className="flex items-center gap-2 text-blue-400 hover:text-blue-600 transition"
@@ -27,7 +21,7 @@ const Contact = () => {
             href="https://github.com/makanda596"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-blue-400 hover:text-gray-400 transition"
+            className="flex items-center gap-2 text-white hover:text-gray-400 transition"
           >
             <FaGithub className="text-xl" /> GitHub
           </a>
@@ -58,21 +52,21 @@ const Contact = () => {
             name="name"
             placeholder="Your Name"
             required
-            className="p-3 rounded bg-gray-100 text-white border border-gray-700 focus:outline-none"
+            className="p-3 rounded bg-gray-200 text-white border border-gray-700 focus:outline-none"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
             required
-            className="p-3 rounded bg-gray-100 text-white border border-gray-700 focus:outline-none"
+            className="p-3 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none"
           />
           <textarea
             name="message"
             placeholder="Your Message"
             rows="5"
             required
-            className="p-3 rounded bg-gray-100 text-white border border-gray-700 focus:outline-none"
+            className="p-3 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none"
           ></textarea>
 
           <button

@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaCode } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.png"
 
 const Hero = () => {
-
+    
     const heroVariants = {
         initial: { opacity: 0 },
         animate: { opacity: 1, transition: { duration: 1, staggerChildren: 0.3 } },
@@ -27,7 +27,7 @@ const Hero = () => {
 
     return (
         <motion.section
-            className="min-h-screen flex flex-col items-center justify-center text-center bg-white text-black py-14"
+            className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-blue-700 to-indigo-900 text-white py-14"
             variants={heroVariants}
             initial="initial"
             animate="animate"
@@ -36,35 +36,36 @@ const Hero = () => {
                 className="rounded-full overflow-hidden shadow-lg mb-8 w-32 h-32 md:w-48 md:h-48"
                 variants={imageVariants}
             >
-                <img src={profile} alt="profile" className="w-full h-full object-cover" />
+                <img src={profile} alt="profile" className="w-full  h-full object-cover" />
             </motion.div>
 
             <motion.h1
                 variants={textVariants}
-                className="text-2xl md:text-3xl font-bold mb-2"
+                className="text-xl md:text-2xl font-bold mb-2"
                 style={{ fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
             >
-                Hi, I'm <span className="text-teal-500">BRIAN MAKANDA (Makanda Worksoft)</span>
+                Hi, I'm <span className="text-teal-300">BRIAN MAKANDA (Makanda Worksoft)</span>
             </motion.h1>
 
             <motion.p
                 variants={textVariants}
-                className="mt-1 text-lg md:text-xl max-w-xl text-gray-700 leading-relaxed"
+                className="mt-4 text-lg md:text-xl max-w-xl text-gray-200 leading-relaxed"
                 style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}
             >
-                Undergraduate at Moi University, pursuing BACHELOR OF ARTS PURE GEOGRAPHY (GEOSPATIAL ENGINEERING)
-                and passionate about GIS, Remote Sensing & Geospatial Engineering
-                , and a Full-Stack Developer since 2023. Based in Kenya.
+                Undergraduate at Moi University,persuing BACHELOR OF ARTS PURE GEOGRAPHY(GEOSPATIAL ENGENEERING) 
+                and passionate about <span className="text-yellow-300">GIS, Remote Sensing & Geospatial Engineering</span>
+                , and a <span className="text-purple-300">Full-Stack Developer</span> since 2023. Based in Kenya 
+                .
             </motion.p>
 
             <motion.div
-                className="flex space-x-4 mt-2"
+                className="flex space-x-4 mt-8"
                 variants={textVariants}
                 style={{ delay: 0.7 }}
             >
                 <motion.a
-                    href="#projects"
-                    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out flex items-center"
+                    href="#projects" 
+                    className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition duration-300 ease-in-out flex items-center"
                     variants={socialVariants}
                 >
                     <FaCode className="mr-2" /> Explore Projects
@@ -76,11 +77,18 @@ const Hero = () => {
                 >
                     Contact Me
                 </motion.a>
-               
+                <motion.a
+                    href="/BRIAN MAKANDA RESUME_PDF.pdf"
+                    download="BRIAN_MAKANDA_Resume"
+                    className="bg-blue-500 hover:bg-indigo-600 text-white font-semibold py-1 px-2 rounded-full shadow-md transition duration-300 ease-in-out"
+                    variants={socialVariants}
+                >
+                    Download Resume
+                </motion.a>
             </motion.div>
 
             <motion.div
-                className="flex space-x-6 mt-8"
+                className="flex space-x-6 mt-4"
                 variants={textVariants}
                 style={{ delay: 0.9 }}
             >
@@ -88,26 +96,26 @@ const Hero = () => {
                     href="https://github.com/makanda596"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-black transition duration-300"
+                    className="text-gray-300 hover:text-white transition duration-300"
                     variants={socialVariants}
                 >
-                    <FaGithub size={28} />
+                    <FaGithub size={24} />
                 </motion.a>
                 <motion.a
                     href="https://www.linkedin.com/in/brian-makanda-26ba7424a/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-black transition duration-300"
+                    className="text-gray-300 hover:text-white transition duration-300"
                     variants={socialVariants}
                 >
-                    <FaLinkedin size={28} />
+                    <FaLinkedin size={24} />
                 </motion.a>
                 <motion.a
                     href="mailto:oumab743@gmail.com"
-                    className="text-gray-700 hover:text-black transition duration-300"
+                    className="text-gray-300 hover:text-white transition duration-300"
                     variants={socialVariants}
                 >
-                    <FaEnvelope size={28} />
+                    <FaEnvelope size={24} />
                 </motion.a>
             </motion.div>
         </motion.section>

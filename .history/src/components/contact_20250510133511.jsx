@@ -4,16 +4,16 @@ const Contact = () => {
   return (
     <section id="contact" className="py-2 bg-white text-black">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-xl font-bold mb-2">Get In Touch</h2>
-        <p className="text-gray-400 mb-4">
+        <h2 className="text-xl font-bold mb-4">Get In Touch</h2>
+        <p className="text-gray-400 mb-10">
           Whether you want to collaborate, ask a question, or just say hi  my inbox is always open.
         </p>
         
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-4 text-sm sm:text-base">
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mb-10 text-sm sm:text-base">
           <a
             href="tel:+254742149060"
             className="text-blue-500 hover:text-blue-700 font-semibold text-lg transition duration-200 ease-in-out"
-          >Call me
+          >Phone
           </a>
 
           <a

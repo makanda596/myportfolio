@@ -10,7 +10,7 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-xl font-bold text-center mb-2"
+            className="text-4xl font-bold text-center mb-10"
         >
             About Me
         </motion.h2>
@@ -20,11 +20,11 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-lg text-gray-600 leading-8 mb-4 space-y-1 text-center max-w-3xl mx-auto"
+            className="text-lg text-gray-600 leading-8 mb-8 space-y-2 text-center max-w-3xl mx-auto"
         >
             <p>
                 I am a Final Undergraduate student pursuing a Bachelor of Arts (GEOGRAPHY) at Moi University.
-                A self-taught Full-Stack Developer; <span className='text-black font-bold'>frontend and backend development</span>
+                A self-taught Full-Stack Developer (FRONTEND DEVELOPER & BACKEND DEVELOPER)
             </p>
             <p>
                 Since 2023, I’ve been building full-stack applications that solve real-world problems by blending geospatial intelligence
@@ -36,7 +36,7 @@ const About = () => (
             </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-6">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-16">
             {/* Skill Cards */}
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaMapMarkedAlt className="text-4xl text-indigo-600 mx-auto mb-4" />

@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="py-2 bg-white text-black">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-xl font-bold mb-2">Get In Touch</h2>
-        <p className="text-gray-400 mb-4">
+        <p className="text-gray-400 mb-10">
           Whether you want to collaborate, ask a question, or just say hi  my inbox is always open.
         </p>
         

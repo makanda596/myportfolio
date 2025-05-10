@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaMapMarkedAlt, FaCode, FaGlobeAfrica, FaProjectDiagram } from 'react-icons/fa';
-
+import { CheckCircle } from 'lucide-react'; // For check icons
 
 const About = () => (
     <section id="about" className="py-10 px-6 max-w-6xl mx-auto bg-white text-gray-800">
@@ -10,7 +10,7 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-xl font-bold text-center mb-2"
+            className="text-4xl font-bold text-center mb-10"
         >
             About Me
         </motion.h2>
@@ -20,11 +20,11 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-lg text-gray-600 leading-8 mb-4 space-y-1 text-center max-w-3xl mx-auto"
+            className="text-lg text-gray-600 leading-8 mb-8 space-y-2 text-center max-w-3xl mx-auto"
         >
             <p>
                 I am a Final Undergraduate student pursuing a Bachelor of Arts (GEOGRAPHY) at Moi University.
-                A self-taught Full-Stack Developer; <span className='text-black font-bold'>frontend and backend development</span>
+                A self-taught Full-Stack Developer (FRONTEND DEVELOPER & BACKEND DEVELOPER)
             </p>
             <p>
                 Since 2023, I’ve been building full-stack applications that solve real-world problems by blending geospatial intelligence
@@ -36,7 +36,7 @@ const About = () => (
             </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-6">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-16">
             {/* Skill Cards */}
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaMapMarkedAlt className="text-4xl text-indigo-600 mx-auto mb-4" />
@@ -68,7 +68,45 @@ const About = () => (
             </motion.div>
         </div>
 
-       
+        {/* New Cross-Platform Section */}
+        <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="flex flex-col md:flex-row items-center gap-10"
+        >
+            {/* Illustration */}
+            <div className="flex-shrink-0 w-full md:w-1/2 flex justify-center">
+                <img
+                    src="/your-image-path.png" // Replace with your actual image path
+                    alt="Cross-platform app development"
+                    className="w-full max-w-md"
+                />
+            </div>
+
+            {/* Text */}
+            <div className="w-full md:w-1/2">
+                <h3 className="text-2xl font-bold mb-4">Expand Your Reach with Cross-Platform Development</h3>
+                <p className="italic text-gray-600 mb-4">
+                    I deliver Android and iOS apps from a single codebase — fast, scalable, and reliable.
+                </p>
+                <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start">
+                        <CheckCircle className="text-blue-600 w-5 h-5 mt-1 mr-2" />
+                        One Codebase, native performance across Android and iOS.
+                    </li>
+                    <li className="flex items-start">
+                        <CheckCircle className="text-blue-600 w-5 h-5 mt-1 mr-2" />
+                        Fast iterations with customized UI/UX (Your vision comes first).
+                    </li>
+                    <li className="flex items-start">
+                        <CheckCircle className="text-blue-600 w-5 h-5 mt-1 mr-2" />
+                        No extra charge for clean, user-centric design.
+                    </li>
+                </ul>
+            </div>
+        </motion.div>
     </section>
 );
 

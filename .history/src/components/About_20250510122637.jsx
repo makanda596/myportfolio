@@ -20,7 +20,7 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-lg text-gray-600 leading-8 mb-4 space-y-1 text-center max-w-3xl mx-auto"
+            className="text-lg text-gray-600 leading-8 mb-4 space-y-2 text-center max-w-3xl mx-auto"
         >
             <p>
                 I am a Final Undergraduate student pursuing a Bachelor of Arts (GEOGRAPHY) at Moi University.

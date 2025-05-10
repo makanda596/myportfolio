@@ -20,7 +20,7 @@ const About = () => (
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-lg text-gray-600 leading-8 mb-4 space-y-1 text-center max-w-3xl mx-auto"
+            className="text-lg text-gray-600 leading-8 mb-4 space-y-2 text-center max-w-3xl mx-auto"
         >
             <p>
                 I am a Final Undergraduate student pursuing a Bachelor of Arts (GEOGRAPHY) at Moi University.
@@ -36,7 +36,7 @@ const About = () => (
             </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-6">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-16">
             {/* Skill Cards */}
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaMapMarkedAlt className="text-4xl text-indigo-600 mx-auto mb-4" />

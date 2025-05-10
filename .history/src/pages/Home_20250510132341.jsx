@@ -25,18 +25,18 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Skills />
-      <Projects />
-      <Reviews />
-      <Contact />
-      <Footer />
-
-      {/* Elfsight WhatsApp Chat */}
-      <div className="elfsight-app-7aed1c1d-f9cd-4d86-a53b-d5af9f3b6d4f" data-elfsight-app-lazy></div>
+        <Navbar />
+        <Hero />
+        <About />
+        <Services />
+        <Skills />
+        <Projects />
+        <Reviews />
+        <Contact />
+        <Footer />
+        
+        {/* Elfsight WhatsApp Chat */}
+        <div className="elfsight-app-7aed1c1d-f9cd-4d86-a53b-d5af9f3b6d4f" data-elfsight-app-lazy></div>
     </div>
   );
 }

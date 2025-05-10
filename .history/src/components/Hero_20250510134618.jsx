@@ -49,16 +49,16 @@ const Hero = () => {
 
             <motion.p
                 variants={textVariants}
-                className="mt-1 text-lg md:text-xl max-w-xl text-gray-700 leading-relaxed"
+                className="mt-2 text-lg md:text-xl max-w-xl text-gray-700 leading-relaxed"
                 style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}
             >
                 Undergraduate at Moi University, pursuing BACHELOR OF ARTS PURE GEOGRAPHY (GEOSPATIAL ENGINEERING)
-                and passionate about GIS, Remote Sensing & Geospatial Engineering
-                , and a Full-Stack Developer since 2023. Based in Kenya.
+                and passionate about <span className="text-yellow-400">GIS, Remote Sensing & Geospatial Engineering</span>
+                , and a <span className="text-purple-400">Full-Stack Developer</span> since 2023. Based in Kenya.
             </motion.p>
 
             <motion.div
-                className="flex space-x-4 mt-2"
+                className="flex space-x-4 mt-8"
                 variants={textVariants}
                 style={{ delay: 0.7 }}
             >
@@ -76,7 +76,14 @@ const Hero = () => {
                 >
                     Contact Me
                 </motion.a>
-               
+                <motion.a
+                    href="/BRIAN MAKANDA RESUME_PDF.pdf"
+                    download="BRIAN_MAKANDA_Resume"
+                    className="bg-blue-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out"
+                    variants={socialVariants}
+                >
+                    Download Resume
+                </motion.a>
             </motion.div>
 
             <motion.div

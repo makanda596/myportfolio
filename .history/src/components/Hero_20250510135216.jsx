@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
 
             <motion.div
-                className="flex space-x-4 mt-2"
+                className="flex space-x-4 mt-8"
                 variants={textVariants}
                 style={{ delay: 0.7 }}
             >

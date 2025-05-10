@@ -57,27 +57,27 @@ const ProjectsSection = () => {
         <h2 className="text-xl font-bold mb-10 text-center text-blue-600">Projects</h2>
 
         <div>
-          <div className="mt-12 mb-4">
-            <h3 className="text-2xl font-semibold mb-4 text-green-500">Full-stack Projects</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {backendProjects.map((project, index) => (
-                <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md">
-                  <img src={project.image} alt={project.name} className="w-20 h-20 rounded-md object-cover" />
+           <div className="mt-12">
+          <h3 className="text-2xl font-semibold mb-4 text-purple-300">Full-stack Projects</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            {backendProjects.map((project, index) => (
+              <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md">
+                <img src={project.image} alt={project.name} className="w-20 h-20 rounded-md object-cover" />
 
-                  <h4 className="text-xl font-semibold mb-2">{project.name}</h4>
-                  <p className="text-sm text-gray-300 mb-4">{project.description}</p>
-                  <div className="flex gap-4">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-400 hover:text-blue-600">
-                      <FaGithub /> GitHub
-                    </a>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-green-400 hover:text-green-600">
-                      <FaExternalLinkAlt /> Live
-                    </a>
-                  </div>
+                <h4 className="text-xl font-semibold mb-2">{project.name}</h4>
+                <p className="text-sm text-gray-300 mb-4">{project.description}</p>
+                <div className="flex gap-4">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-400 hover:text-blue-600">
+                    <FaGithub /> GitHub
+                  </a>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-green-400 hover:text-green-600">
+                    <FaExternalLinkAlt /> Live
+                  </a>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
+        </div>
           <h3 className="text-xl font-semibold mb-4 text-green-500">Frontend Projects</h3>
           <div className="grid md:grid-cols-3 gap-4">
             {frontendProjects.map((project, index) => (
@@ -98,7 +98,28 @@ const ProjectsSection = () => {
           </div>
         </div>
 
-      
+        <div className="mt-12">
+          <h3 className="text-2xl font-semibold mb-4 text-purple-300">Full-stack Projects</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            {backendProjects.map((project, index) => (
+              <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md">
+                <img src={project.image} alt={project.name} className="w-20 h-20 rounded-md object-cover" />
+
+                <h4 className="text-xl font-semibold mb-2">{project.name}</h4>
+                <p className="text-sm text-gray-300 mb-4">{project.description}</p>
+                <div className="flex gap-4">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-400 hover:text-blue-600">
+                    <FaGithub /> GitHub
+                  </a>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-green-400 hover:text-green-600">
+                    <FaExternalLinkAlt /> Live
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

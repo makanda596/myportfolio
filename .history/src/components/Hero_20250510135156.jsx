@@ -49,16 +49,16 @@ const Hero = () => {
 
             <motion.p
                 variants={textVariants}
-                className="mt-1 text-lg md:text-xl max-w-xl text-gray-700 leading-relaxed"
+                className="mt-2 text-lg md:text-xl max-w-xl text-gray-700 leading-relaxed"
                 style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}
             >
                 Undergraduate at Moi University, pursuing BACHELOR OF ARTS PURE GEOGRAPHY (GEOSPATIAL ENGINEERING)
-                and passionate about GIS, Remote Sensing & Geospatial Engineering
+                and passionate about <span className="text-yellow-400">GIS, Remote Sensing & Geospatial Engineering</span>
                 , and a Full-Stack Developer since 2023. Based in Kenya.
             </motion.p>
 
             <motion.div
-                className="flex space-x-4 mt-2"
+                className="flex space-x-4 mt-8"
                 variants={textVariants}
                 style={{ delay: 0.7 }}
             >

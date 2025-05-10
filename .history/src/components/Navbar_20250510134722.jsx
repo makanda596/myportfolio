@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gray-600 text-white py-2 px-4 fixed w-full z-10">
+        <nav className="bg-blue-900 text-white py-2 px-4 fixed w-full z-10">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="text-xl font-semibold">
                     <div className="cursor-pointer">

@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaInstagram } from "react-
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-600 text-white py-10">
+        <footer className="bg-gray-900 text-white py-10">
             <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
@@ -24,13 +24,16 @@ const Footer = () => {
                     </p>
                 </div>
 
+                {/* About */}
                 <div>
                     <h3 className="text-lg font-semibold mb-4">About Brian Makanda</h3>
                     <p className="text-sm text-gray-300 mb-4">
-                        A Frontend Developer, Backend Developer and Programmer by passion.
+                        A Mobile Apps Engineer, Web Developer, and Programmer by passion.
                     </p>
                     <div className="flex gap-4 text-xl">
-                        <a href="mailto:oumab743@gmail.com" className="text-blue-300 hover:text-white"><FaEnvelope /></a>
+                        <a href="https://twitter.com/brianmakanda" className="text-blue-400 hover:text-white"><FaTwitter /></a>
+                        <a href="https://www.instagram.com/brianmakanda" className="text-pink-500 hover:text-white"><FaInstagram /></a>
+                        <a href="mailto:brian.makanda@gmail.com" className="text-blue-300 hover:text-white"><FaEnvelope /></a>
                         <a href="https://www.linkedin.com/in/brian-makanda-26ba7424a/" className="text-blue-600 hover:text-white"><FaLinkedin /></a>
                         <a href="https://github.com/makanda596" className="text-gray-400 hover:text-white"><FaGithub /></a>
                     </div>

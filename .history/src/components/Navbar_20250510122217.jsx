@@ -9,11 +9,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gray-600 text-white py-2 px-4 fixed w-full z-10">
+        <nav className="bg-blue-900 text-white py-2 px-4 fixed w-full z-10">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="text-xl font-semibold">
                     <div className="cursor-pointer">
-                     Brian Makanda
+                        My Portfolio
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <a href="#services" className="flex items-center space-x-2 hover:text-blue-400">
-                            <FaProjectDiagram /> <span>My Services</span>
+                            <FaUser /> <span>My Services</span>
                         </a>
                     </div>
                     <div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <a href="/" className="text-white hover:text-blue-400">Home</a>
                     <a href="#about" className="text-white hover:text-blue-400">About</a>
                     <a href="#services" className="text-white hover:text-blue-400">About</a>
-                    <a href="#skills" className="text-white hover:text-blue-400">My services</a>
+                    <a href="#skills" className="text-white hover:text-blue-400">Skills</a>
                     <a href="#projects" className="text-white hover:text-blue-400">Projects</a>
                     <a href="#contact" className="text-white hover:text-blue-400">Contact</a>
                 </div>
