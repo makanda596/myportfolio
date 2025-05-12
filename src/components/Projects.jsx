@@ -35,7 +35,7 @@ const backendProjects = [
     description:
       "A full-stack system for Geography & Environmental Students at Moi University. Offers training programs, resource sharing, task submissions, alumni contributions, and more.",
     github: "https://github.com/makanda596/gessamusystem",
-    link: "https://gessamuportal.onrender.com/",
+    // link: "https://gessamuportal.onrender.com/",
     image: GImg,
 
   },
@@ -44,7 +44,7 @@ const backendProjects = [
     description:
       "I am a founder of the Unitrade Hub Startup Company, platform connecting Moi University students and sellers to buy and sell goods easily within the campus environment.",
     github: "https://github.com/makanda596/UniTradeHub",
-    link: "https://unitradehub-kesf.onrender.com/",
+    link: "https://unitradehubs.onrender.com",
     image: uniImg,
 
   },
