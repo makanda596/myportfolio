@@ -37,7 +37,6 @@ const About = () => (
         </motion.div>
 
         <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mb-6">
-            {/* Skill Cards */}
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaMapMarkedAlt className="text-4xl text-indigo-600 mx-auto mb-4" />
                 <h4 className="font-semibold text-xl mb-2">GIS & Mapping</h4>
@@ -49,21 +48,21 @@ const About = () => (
                 <FaCode className="text-4xl text-indigo-600 mx-auto mb-4" />
                 <h4 className="font-semibold text-xl mb-2">Backend Development</h4>
                 <p className="text-sm text-gray-700">
-                    Proficient in React, Node.js, MongoDB, Express.js, Docker — building scalable and practical systems.
+                    Proficient in React, Node.js, MongoDB, Express.js,Redis, Docker  building scalable and practical systems.
                 </p>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaGlobeAfrica className="text-4xl text-indigo-600 mx-auto mb-4" />
                 <h4 className="font-semibold text-xl mb-2">Frontend Development</h4>
                 <p className="text-sm text-gray-700">
-                    HTML, JavaScript, Tailwind CSS wizardry, bringing out clean and responsive UI/UX with modern animations.
+                    HTML, JavaScript,React, Typescript Tailwind CSS wizardry, bringing out clean and responsive UI/UX with modern animations.
                 </p>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-100 p-6 rounded-xl shadow-md text-center">
                 <FaProjectDiagram className="text-4xl text-indigo-600 mx-auto mb-4" />
                 <h4 className="font-semibold text-xl mb-2">Project Builder</h4>
                 <p className="text-sm text-gray-700">
-                    Developed the GESSAMU Portal, a startup company UniTrade Hub, photography sites, and multiple data-driven platforms.
+                A founder and Fullstack developer at my  startup company UniTrade Hub  ,developed the GESSAMU Portal, photography sites, and multiple data-driven platforms.
                 </p>
             </motion.div>
         </div>
