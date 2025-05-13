@@ -35,7 +35,7 @@ const backendProjects = [
     description:
       "A full-stack system for Geography & Environmental Students at Moi University. Offers training programs, resource sharing, task submissions, alumni contributions, and more.",
     github: "https://github.com/makanda596/gessamusystem",
-    // link: "https://gessamuportal.onrender.com/",
+    link: "https://gessamu.onrender.com",
     image: GImg,
 
   },
