@@ -16,12 +16,14 @@ const Navbar = () => {
     return (
         <nav className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white shadow-lg py-3 px-4 fixed w-full z-50">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
+                {/* Brand */}
                 <div className="text-xl font-bold tracking-wide">
                     <a href="/" className="hover:text-blue-400 transition duration-300 ease-in-out">
                         Brian Makanda
                     </a>
                 </div>
 
+                {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center space-x-6">
                     <li>
                         <a href="/" className="hover:underline flex items-center gap-2">
@@ -67,6 +69,7 @@ const Navbar = () => {
                     </li>
                 </ul>
 
+                {/* Mobile Toggle */}
                 <div className="md:hidden">
                     <button onClick={toggleMenu} className="text-2xl focus:outline-none">
                         ☰
@@ -74,6 +77,7 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {/* Mobile Menu */}
             {isOpen && (
                 <ul className="md:hidden flex flex-col items-center space-y-4 mt-3 transition-all duration-500">
                     <li>
