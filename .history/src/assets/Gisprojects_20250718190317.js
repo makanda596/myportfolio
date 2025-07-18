@@ -1,12 +1,5 @@
 export const Gisprojects = [
     {
-        name: "Geospatial Analysis of NDVI & Land Surface Temperature in Machakos County (April–May 2025)",
-        desc: "Created NDVI and LST maps for Machakos County using Landsat 8 and ArcGIS to analyze vegetation health and surface temperature. The maps support planners, farmers, and researchers by highlighting climate stress and land use changes in a rapidly urbanizing, semi-arid region.",
-        images: [
-            "https://res.cloudinary.com/dch4echnq/image/upload/v1752854340/LST_NDVI_FOR_MACHAKOS_COUNTY_whzoum.jpg"
-        ],
-    },
-    {
         name: "LULC Analysis of Kesses Sub-County – 2020",
         desc: "This project analyzes the 2020 Land Use and Land Cover (LULC) of Kesses Sub-County, Uasin Gishu County, Kenya. It shows agriculture as the dominant land use, with built-up areas growing in the north and south, forest cover in the south, and minimal but important water bodies. The analysis was done using ArcGIS and visualized with charts in Excel. It can support planners, environmentalists, researchers, and policy makers working toward sustainable land management and development.",
         images: [
@@ -22,10 +15,9 @@ export const Gisprojects = [
             "https://res.cloudinary.com/dch4echnq/image/upload/v1751006656/water_tubidty_map_leufao.jpg",
         ],
     },
-  
-    // {
-    //     name:"d",
-    //     images: ["https://res.cloudinary.com/dch4echnq/image/upload/v1752854340/LST_NDVI_FOR_MACHAKOS_COUNTY_whzoum.jpg",]
-    // }
+    {
+        name:"d",
+        images: ["https://res.cloudinary.com/dch4echnq/image/upload/v1752854340/LST_NDVI_FOR_MACHAKOS_COUNTY_whzoum.jpg",]
+    }
 ];
   

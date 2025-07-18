@@ -108,12 +108,6 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#experience" className="hover:underline flex items-center gap-2">
-                            <FiSettings className="text-lg" />
-                            Experience
-                        </a>
-                    </li>
-                    <li>
                         <a href="/gisprojects" className="hover:underline flex items-center gap-2" onClick={() => setIsOpen(false)}>
                             <FiMap className="text-lg" />
                             GIS Projects

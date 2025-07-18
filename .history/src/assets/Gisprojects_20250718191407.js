@@ -1,7 +1,7 @@
 export const Gisprojects = [
     {
         name: "Geospatial Analysis of NDVI & Land Surface Temperature in Machakos County (April–May 2025)",
-        desc: "Created NDVI and LST maps for Machakos County using Landsat 8 and ArcGIS to analyze vegetation health and surface temperature. The maps support planners, farmers, and researchers by highlighting climate stress and land use changes in a rapidly urbanizing, semi-arid region.",
+        desc: "As part of my ongoing exploration of climate-sensitive spatial patterns in Kenya, I conducted a geospatial analysis of Land Surface Temperature (LST) and Normalized Difference Vegetation Index (NDVI) for Machakos County using Landsat 8 (OLI/TIRS).\n\nI generated:\n• 🌿 NDVI Map – to assess vegetation health (from dense green cover to bare land)\n• 🌡️ LST Map – to identify surface temperature zones (cool to hot)\n\n📌 Why Machakos?\nMachakos is a fast-growing, semi-arid region where land use, vegetation, and temperature patterns",
         images: [
             "https://res.cloudinary.com/dch4echnq/image/upload/v1752854340/LST_NDVI_FOR_MACHAKOS_COUNTY_whzoum.jpg"
         ],

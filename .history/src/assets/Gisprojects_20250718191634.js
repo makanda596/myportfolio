@@ -1,7 +1,8 @@
 export const Gisprojects = [
     {
         name: "Geospatial Analysis of NDVI & Land Surface Temperature in Machakos County (April–May 2025)",
-        desc: "Created NDVI and LST maps for Machakos County using Landsat 8 and ArcGIS to analyze vegetation health and surface temperature. The maps support planners, farmers, and researchers by highlighting climate stress and land use changes in a rapidly urbanizing, semi-arid region.",
+        desc: "Created NDVI and LST maps for Machakos County using Landsat 8 and ArcGIS to analyze vegetation health and surface temperature. The maps support planners, farmers, and researchers by highlighting climate stress and land use changes in a rapidly urbanizing, semi-arid region."
+
         images: [
             "https://res.cloudinary.com/dch4echnq/image/upload/v1752854340/LST_NDVI_FOR_MACHAKOS_COUNTY_whzoum.jpg"
         ],
